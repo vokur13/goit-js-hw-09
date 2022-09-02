@@ -1,0 +1,32 @@
+{
+  "name": "goit-js-hw-09-vi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://vokur13.github.io/goit-js-hw-09-vi",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09-vi/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vokur13/goit-js-hw-09-vi.git"
+  },
+  "keywords": [],
+  "author": "VOLODYMYR_KUROV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://https://github.com/vokur13/goit-js-hw-09-vi/issues"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
